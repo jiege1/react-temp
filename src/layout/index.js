@@ -8,6 +8,8 @@ export default class Layout extends React.Component {
 
   static defaultProps = {};
 
+  test = 'wtf';
+
   constructor(props) {
     super(props);
     this.state = {};
