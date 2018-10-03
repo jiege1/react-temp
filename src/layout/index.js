@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
     this.state = {};
   }
 
-  componentDidMount() {}
+  componentDidMount(data) {}
 
   render() {
     return (
