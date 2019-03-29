@@ -8,7 +8,8 @@ module.exports = (config) => {
     resolve: {
       ...config.resolve,
       alias: {
-        components: rootSrc + '/components'
+        components: rootSrc + '/components',
+        common: rootSrc + '/common',
       }
     },
   };
